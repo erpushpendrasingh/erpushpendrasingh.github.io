@@ -5,9 +5,8 @@ import { skills } from "../data";
 
 const Skills = () => {
      return (
-          <section id="Skills" className="py-12 ">
+          <section id="Skills" className="bg-black py-12 ">
                <div className="container mx-auto ">
-                    {" "}
                     <h1 className="text-center mb-9  text-2xl">Skills</h1>
                     <div className="grid lg:grid-cols-5 md:grid-cols-5  grid-cols-3">
                          {skills.map((skill, index) => {

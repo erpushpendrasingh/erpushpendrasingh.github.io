@@ -9,7 +9,7 @@ const Hero = () => {
      return (
           <section
                id="home"
-               className="lg:h-[89vh] mt-20 flex items-center py-32 lg:py-0 overflow-hidden"
+               className="bg-black lg:h-[89vh] mt-20 flex items-center py-32 lg:py-0 overflow-hidden"
           >
                <div className="container mx-auto h-full">
                     <div className="flex items-center h-full pt-8">
@@ -17,7 +17,7 @@ const Hero = () => {
                               <p className="text-lg text-accent text-md mb-[22px]">
                                    Hey, I'm Pushpendra Singh ! 👋
                               </p>
-                              <h1 className="text-4xl text-black leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
+                              <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
                                    I Build & Design <br /> Web Interfaces.
                               </h1>
                               <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">

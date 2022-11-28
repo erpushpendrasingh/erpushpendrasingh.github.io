@@ -8,7 +8,7 @@ import { navigation } from "./../data";
 const About = () => {
      console.log(navigation[3].href, "nav");
      return (
-          <section className="section" id="about">
+          <section className="section bg-black" id="about">
                <div className="container mx-auto">
                     <div className="flex flex-col xl:flex-row gap-24">
                          <img
