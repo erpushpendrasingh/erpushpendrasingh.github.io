@@ -9,6 +9,7 @@ import {
      FiTag,
      FiMail,
      FiMapPin,
+     FiPhoneCall,
 } from "react-icons/fi";
 
 // companies icons
@@ -269,14 +270,21 @@ export const contact = [
           subtitle: "Kushinagar , 274409 , Uttar Pradesh",
      },
      {
+          icon: <FiPhoneCall />,
+          title: "Contact me",
+          subtitle: "+91 9616850761",
+     },
+     {
           icon: <FiLinkedin />,
           title: "Linkedin",
           href: "https://www.linkedin.com/in/erpushpendrasingh/",
+          subtitle: "https://www.linkedin.com/in/erpushpendrasingh/",
      },
      {
           icon: <FiGithub />,
 
           title: "Github",
           href: "https://github.com/erpushpendrasingh",
+          subtitle: "https://github.com/erpushpendrasingh",
      },
 ];
