@@ -90,6 +90,16 @@ const NavMobile = () => {
                               </li>
                          );
                     })}
+                    <li className="mb-8">
+                         <a
+                              className="transition-all duration-300"
+                              href="https://drive.google.com/file/d/1PuE0ZAPYxVaSjD4TX9qDjwuPtnJPThJX/view?usp=sharing"
+                              target={"_blank"}
+                              rel="noreferrer"
+                         >
+                              Resume
+                         </a>
+                    </li>
                     <Socials />
                </motion.ul>
           </nav>
