@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 
 // import img
-import Image from "../assets/img/Aboutimg.png";
+import Image from "../assets/img/img.gif";
 import { navigation } from "./../data";
 
 const About = () => {
@@ -11,12 +11,6 @@ const About = () => {
           <section className="section bg-black" id="about">
                <div className="container mx-auto">
                     <div className="flex flex-col xl:flex-row gap-24">
-                         <img
-                              style={{ margin: "auto" }}
-                              className="object-cover h-full w-[500px] md:mx-auto lg:mx-0 rounded-2xl"
-                              src={Image}
-                              alt=""
-                         />
                          <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
                               <div className="flex flex-col">
                                    <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
@@ -46,12 +40,13 @@ const About = () => {
                                         <br />
                                    </p>
                               </div>
-                              {/* <a href={navigation[3].href}  >
-           <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
-              Contact me
-            </button>
-           </a> */}
                          </div>
+                         <img
+                              style={{ margin: "auto" }}
+                              className="object-cover h-full w-[500px] md:mx-auto lg:mx-0 rounded-2xl"
+                              src={Image}
+                              alt=""
+                         />
                     </div>
                </div>
           </section>
