@@ -70,14 +70,14 @@ export const navigation = [
 
 // social
 export const social = [
-     {
-          icon: <FiLinkedin />,
-          href: "https://www.linkedin.com/in/erpushpendrasingh/",
-     },
-     {
-          icon: <FiGithub />,
-          href: "https://github.com/erpushpendrasingh",
-     },
+     // {
+     //      icon: <FiLinkedin />,
+     //      href: "https://www.linkedin.com/in/erpushpendrasingh/",
+     // },
+     // {
+     //      icon: <FiGithub />,
+     //      href: "https://github.com/erpushpendrasingh",
+     // },
 ];
 
 // companies
