@@ -1,8 +1,6 @@
 import {
      FiLinkedin,
-     FiInstagram,
      FiGithub,
-     FiDribbble,
      FiLayout,
      FiSettings,
      FiPenTool,
@@ -23,9 +21,6 @@ import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 import Project3 from "./assets/img/projects/airtable.png";
 import Project2 from "./assets/img/projects/deccanherald.png";
 import Project1 from "./assets/img/projects/pluralsight.png";
-import Project4 from "./assets/img/projects/p4.webp";
-import Project5 from "./assets/img/projects/p5.webp";
-import Project6 from "./assets/img/projects/p6.webp";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -39,10 +34,6 @@ import Chakra from "./assets/img/skills/Chakra.png";
 import SkillImg5 from "./assets/img/skills/Bootstrap.png";
 import tailwind from "./assets/img/skills/tailwind.png";
 import materialui from "./assets/img/skills/materialui.png";
-// testimonial images
-import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
-import TestiImage2 from "./assets/img/testimonials/testimonial-2.webp";
-import TestiImage3 from "./assets/img/testimonials/testimonial-3.webp";
 
 // navigation
 export const navigation = [
@@ -228,31 +219,6 @@ export const services = [
           name: "SEO",
           description:
                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
-     },
-];
-
-// testimonials
-export const testimonials = [
-     {
-          authorImg: TestiImage1,
-          authorText:
-               "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-          authorName: "Olivia Doe",
-          authorPosition: "Head of Design, Google",
-     },
-     {
-          authorImg: TestiImage2,
-          authorText:
-               "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-          authorName: "Olivia Doe",
-          authorPosition: "Head of Design, Google",
-     },
-     {
-          authorImg: TestiImage3,
-          authorText:
-               "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-          authorName: "Olivia Doe",
-          authorPosition: "Head of Design, Google",
      },
 ];
 
