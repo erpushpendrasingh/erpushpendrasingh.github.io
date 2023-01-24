@@ -92,6 +92,17 @@ const Contact = () => {
                          </form>
                     </div>
                </div>
+               <h1
+                    style={{
+                         textAlign: "center",
+                         marginTop: "50px",
+                         color: "#FA8B00",
+                    }}
+               >
+                    <a href="https://www.youtube.com/watch?v=mfpEn52dD5k">
+                         Inspired by@ Cristian Mihai
+                    </a>
+               </h1>
           </section>
      );
 };

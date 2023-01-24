@@ -8,6 +8,11 @@ import resumeForDownload from "../assets/Pushpendra-Singh-Resume.pdf";
 import { TypingTitle } from "./TypingTitle";
 
 const Hero = () => {
+     const downloadResume = async () => {
+          window.open(
+               "https://drive.google.com/file/d/1PuE0ZAPYxVaSjD4TX9qDjwuPtnJPThJX/view?usp=sharing"
+          );
+     };
      return (
           <section
                id="home"
@@ -46,9 +51,12 @@ const Hero = () => {
                               <div className="grid gap-2">
                                    <a
                                         href={resumeForDownload}
+                                        download={true}
                                         //  href="https://drive.google.com/file/d/1PuE0ZAPYxVaSjD4TX9qDjwuPtnJPThJX/view?usp=sharing"
+                                        target="_blank"
                                         rel="noreferrer"
-                                        download="Pushpendra-Singh-Resume"
+                                        onClick={downloadResume}
+                                        // download="Pushpendra-Singh-Resume"
                                    >
                                         <button className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all m-auto">
                                              Resume
