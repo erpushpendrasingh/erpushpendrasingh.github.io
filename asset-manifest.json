@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a266738.css",
-    "main.js": "/static/js/main.dfe2a3f6.js",
+    "main.css": "/static/css/main.2dddac18.css",
+    "main.js": "/static/js/main.1b595387.js",
+    "static/media/lyst.png": "/static/media/lyst.90c26bec51c9baced0c8.png",
     "static/media/airtable.png": "/static/media/airtable.7e1ca85093dc2afcb751.png",
     "static/media/deccanherald.png": "/static/media/deccanherald.e5fe539575c325bd6bff.png",
     "static/media/pluralsight.png": "/static/media/pluralsight.db24f26a56b3abd9be01.png",
+    "static/media/meanBuy.png": "/static/media/meanBuy.44a15ced2c1faea92602.png",
     "static/media/img.gif": "/static/media/img.18f0fc82d634e1e3e35c.gif",
+    "static/media/Pushpendra-Singh-Resume.pdf": "/static/media/Pushpendra-Singh-Resume.36074d2be1a4c1ee616c.pdf",
     "static/media/pushpendra.jpg": "/static/media/pushpendra.943e2d1cea7a6ffc61ba.jpg",
     "static/media/logo_1.png": "/static/media/logo_1.e5da1093238ca3583005.png",
     "static/media/portfolio.svg": "/static/media/portfolio.bff8b39169bade93c32b.svg",
@@ -13,11 +16,11 @@
     "static/media/contact.svg": "/static/media/contact.acdd342ba1db0f98c7cd.svg",
     "static/media/about.svg": "/static/media/about.192e39ff229e6eb06083.svg",
     "index.html": "/index.html",
-    "main.1a266738.css.map": "/static/css/main.1a266738.css.map",
-    "main.dfe2a3f6.js.map": "/static/js/main.dfe2a3f6.js.map"
+    "main.2dddac18.css.map": "/static/css/main.2dddac18.css.map",
+    "main.1b595387.js.map": "/static/js/main.1b595387.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a266738.css",
-    "static/js/main.dfe2a3f6.js"
+    "static/css/main.2dddac18.css",
+    "static/js/main.1b595387.js"
   ]
 }
