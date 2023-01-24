@@ -1,12 +1,9 @@
 import React from "react";
-
-// import contact data
 import { contact } from "../data";
-import { social } from "../data";
 
 const Contact = () => {
      return (
-          <section className=" bg-black section md:mt-[-600px]" id="contact">
+          <section className=" bg-black section md:mt-[0px]" id="contact">
                <div className="container mx-auto">
                     <div className="flex flex-col items-center text-center">
                          <h2 className="section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block">
@@ -18,7 +15,7 @@ const Contact = () => {
                          </p>
                     </div>
                     <div className="flex flex-col lg:gap-x-8 lg:flex-row">
-                         <div className="flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2">
+                         <div className="flex flex-1 flex-col md:flex-row md:flex-wrap lg:flex-col lg:items-start lg:space-y-8 mb-12 lg:mb-0 lg:pt-2">
                               {contact.map((item, index) => {
                                    const {
                                         icon,
@@ -27,18 +24,17 @@ const Contact = () => {
                                         description,
                                         href,
                                    } = item;
-                                   console.log("h", href);
                                    return (
                                         <div
-                                             className="flex flex-col lg:flex-row gap-x-4 md:mt-80 lg:mt-5"
+                                             className="flex flex-col  md:flex-row md:px-3 gap-x-4 md:mt-10 lg:mt-5"
                                              key={index}
                                         >
-                                             <div className="text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl">
+                                             <div className="text-accent rounded-sm w-14 h-6 md:h-12 lg:h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl">
                                                   <a
                                                        href={href}
                                                        target="_blank"
                                                   >
-                                                       {icon}{" "}
+                                                       {icon}
                                                   </a>
                                              </div>
 
@@ -47,7 +43,6 @@ const Contact = () => {
                                                        href={href}
                                                        target="_blank"
                                                   >
-                                                       {" "}
                                                        <h4 className="font-body text-xl mb-1">
                                                             {title}
                                                        </h4>

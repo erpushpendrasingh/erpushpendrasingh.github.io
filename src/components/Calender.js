@@ -18,14 +18,15 @@ const Calender = () => {
           });
      };
      return (
-          <div className="bg-black py-12">
+          <div className="bg-black py-10 w-full font-normal">
                <GitHubCalendar
-                    style={{ margin: "auto", backgroundColor: "black" }}
+                    style={{
+                         margin: "auto",
+                         backgroundColor: "black",
+                    }}
                     username="erpushpendrasingh"
-                    transformData={selectLastHalfyear}
-                    blockSize={20}
-                    color={""}
-                    fontSize={20}
+                    // transformData={selectLastHalfyear}
+                    blockSize={14}
                ></GitHubCalendar>
           </div>
      );

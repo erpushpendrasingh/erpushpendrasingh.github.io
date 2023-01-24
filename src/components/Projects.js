@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 
 // import data
@@ -33,7 +32,7 @@ const Projects = () => {
      return (
           <div id="projects">
                {/* projects nav */}
-               <nav className=" max-w-xl mx-auto">
+               <nav className=" max-w-xl mx-auto ">
                     <ul className="flex flex-col md:flex-row justify-evenly items-center text-white">
                          {projectsNav.map((item, index) => {
                               return (

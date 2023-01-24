@@ -18,9 +18,11 @@ import BehanceBrandIcon from "./assets/img/brands/behance.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
-import Project3 from "./assets/img/projects/airtable.png";
-import Project2 from "./assets/img/projects/deccanherald.png";
 import Project1 from "./assets/img/projects/pluralsight.png";
+import Project2 from "./assets/img/projects/deccanherald.png";
+import Project3 from "./assets/img/projects/airtable.png";
+import Project4 from "./assets/img/projects/lyst.png";
+import Project5 from "./assets/img/projects/meanBuy.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -132,6 +134,32 @@ export const projectsData = [
           TechStack:
                "TeckStack : HTML || CSS ||  JavaScript || API || Git || Bootstrap ",
      },
+     {
+          id: "4",
+          image: Project4,
+          name: "Lyst",
+          // category: 'UI/UX design',
+          description:
+               "Lyst is a global fashion search platform used by 70 million shoppers every year.",
+
+          code: "https://github.com/erpushpendrasingh/seemly-porter-7181",
+          demo: "https://639f75b32b35ad474ee47fcb--seemly-porter-7181.netlify.app/",
+          TechStack:
+               "TeckStack : React || Redux ||  Chakra UI || JSON Server || Git || Bootstrap ",
+     },
+     {
+          id: "5",
+          image: Project5,
+          name: "MeanBuy",
+          // category: 'UI/UX design',
+          description:
+               "Meanbuy is a comprehensive platform for you to choose how you shop, whether it is buying from the store.",
+
+          code: "https://github.com/Anwar7411/melted-scale-2590",
+          demo: "https://63ce8581258e13181bf15a3e--happycartecomapp.netlify.app/",
+          TechStack:
+               "TeckStack : React || Redux ||  Chakra UI || JSON Server || Git ||  Styled-Components",
+     },
 ];
 
 // projects
@@ -228,12 +256,8 @@ export const contact = [
           icon: <FiMail />,
           title: "Have a question?",
           subtitle: "I am here to help you.",
-          description: "Email me at erpushpendrasingh8900@gmail.com",
-     },
-     {
-          icon: <FiMapPin />,
-          title: "Current Location",
-          subtitle: "Kushinagar , 274409 , Uttar Pradesh",
+          // href: "mailto:erpushpendrasingh8900@gmail.com?subject = Feedback&body = Portfoli Message",
+          description: "Email me: erpushpendrasingh8900@gmail.com",
      },
      {
           icon: <FiPhoneCall />,
@@ -241,16 +265,22 @@ export const contact = [
           subtitle: "+91 9616850761",
      },
      {
+          icon: <FiMapPin />,
+          title: "Current Location",
+          subtitle: "Kushinagar , 274409 , Uttar Pradesh",
+     },
+
+     {
           icon: <FiLinkedin />,
           title: "Linkedin",
           href: "https://www.linkedin.com/in/erpushpendrasingh/",
-          subtitle: "https://www.linkedin.com/in/erpushpendrasingh/",
+          subtitle: "",
      },
      {
           icon: <FiGithub />,
 
           title: "Github",
           href: "https://github.com/erpushpendrasingh",
-          subtitle: "https://github.com/erpushpendrasingh",
+          subtitle: "",
      },
 ];
