@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2dddac18.css",
-    "main.js": "/static/js/main.1b595387.js",
+    "main.js": "/static/js/main.47efd93f.js",
     "static/media/lyst.png": "/static/media/lyst.90c26bec51c9baced0c8.png",
     "static/media/airtable.png": "/static/media/airtable.7e1ca85093dc2afcb751.png",
     "static/media/deccanherald.png": "/static/media/deccanherald.e5fe539575c325bd6bff.png",
@@ -17,10 +17,10 @@
     "static/media/about.svg": "/static/media/about.192e39ff229e6eb06083.svg",
     "index.html": "/index.html",
     "main.2dddac18.css.map": "/static/css/main.2dddac18.css.map",
-    "main.1b595387.js.map": "/static/js/main.1b595387.js.map"
+    "main.47efd93f.js.map": "/static/js/main.47efd93f.js.map"
   },
   "entrypoints": [
     "static/css/main.2dddac18.css",
-    "static/js/main.1b595387.js"
+    "static/js/main.47efd93f.js"
   ]
 }
