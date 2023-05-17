@@ -23,6 +23,7 @@ import Project2 from "./assets/img/projects/deccanherald.png";
 import Project3 from "./assets/img/projects/airtable.png";
 import Project4 from "./assets/img/projects/lyst.png";
 import Project5 from "./assets/img/projects/meanBuy.png";
+import Project6 from "./assets/img/projects/freshtohome.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -103,7 +104,6 @@ export const projectsData = [
           id: "1",
           image: Project1,
           name: "Pluralsight",
-          // category: 'branding',
           description:
                "Pluralsight is online education company that offers a variety of video training courses for software developers, IT, and creative professionals through its website.",
           code: "https://github.com/erpushpendrasingh/spotless-gate-4639",
@@ -114,7 +114,6 @@ export const projectsData = [
           id: "2",
           image: Project2,
           name: "Deccan Herald",
-          // category: 'UI/UX design',
           description:
                "Deccan Herald is an Indian English language daily newspaper published from the Indian state of Karnataka. It was founded by K. N. Guruswamy, a liquor businessman from Ballari and was launched on 17 June 1948.",
           code: "https://github.com/erpushpendrasingh/handsomely-clam-5290",
@@ -125,7 +124,6 @@ export const projectsData = [
           id: "3",
           image: Project3,
           name: "Airtable",
-          // category: 'UI/UX design',
           description:
                "Airtable is a cloud collaboration service headquartered in San Francisco. Airtable is a spreadsheet-database hybrid, with the features of a database but applied to a spreadsheet.",
 
@@ -138,12 +136,11 @@ export const projectsData = [
           id: "4",
           image: Project4,
           name: "Lyst",
-          // category: 'UI/UX design',
           description:
                "Lyst is a global fashion search platform used by 70 million shoppers every year.",
 
           code: "https://github.com/erpushpendrasingh/seemly-porter-7181",
-          demo: "https://639f75b32b35ad474ee47fcb--seemly-porter-7181.netlify.app/",
+          demo: "https://lystclonefp.netlify.app/",
           TechStack:
                "TeckStack : React || Redux ||  Chakra UI || JSON Server || Git || Bootstrap ",
      },
@@ -151,12 +148,23 @@ export const projectsData = [
           id: "5",
           image: Project5,
           name: "MeanBuy",
-          // category: 'UI/UX design',
           description:
                "Meanbuy is a comprehensive platform for you to choose how you shop, whether it is buying from the store.",
 
           code: "https://github.com/Anwar7411/melted-scale-2590",
           demo: "https://63ce8581258e13181bf15a3e--happycartecomapp.netlify.app/",
+          TechStack:
+               "TeckStack : React || Redux ||  Chakra UI || JSON Server || Git ||  Styled-Components",
+     },
+     {
+          id: "6",
+          image: Project6,
+          name: "Fresh-to-home",
+          description:
+               "Meanbuy is a comprehensive platform for you to choose how you shop, whether it is buying from the store.",
+
+          code: "https://github.com/erpushpendrasingh/Fresh-To-Home",
+          demo: "https://fresh-to-home.netlify.app/",
           TechStack:
                "TeckStack : React || Redux ||  Chakra UI || JSON Server || Git ||  Styled-Components",
      },
