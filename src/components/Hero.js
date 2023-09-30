@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-// import woman image
+
 import pushpendra from "../assets/img/pushpendra.jpg";
 import contact from "./Contact";
 import resumeForDownload from "../assets/Pushpendra-Singh-Resume.pdf";
