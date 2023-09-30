@@ -93,7 +93,7 @@ const NavMobile = () => {
                     <li className="mb-8">
                          <a
                               className="transition-all duration-300"
-                              href="https://drive.google.com/file/d/1PuE0ZAPYxVaSjD4TX9qDjwuPtnJPThJX/view?usp=sharing"
+                              href="https://drive.google.com/file/d/13nQIEVOt6zNw60f-7n7NoBxAZMKujE2J/view?usp=sharing"
                               target={"_blank"}
                               rel="noreferrer"
                          >

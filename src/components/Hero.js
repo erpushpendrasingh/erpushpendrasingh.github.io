@@ -10,7 +10,7 @@ import { TypingTitle } from "./TypingTitle";
 const Hero = () => {
      const downloadResume = async () => {
           window.open(
-               "https://drive.google.com/file/d/1PuE0ZAPYxVaSjD4TX9qDjwuPtnJPThJX/view?usp=sharing"
+               "https://drive.google.com/file/d/13nQIEVOt6zNw60f-7n7NoBxAZMKujE2J/view?usp=sharing"
           );
      };
      return (

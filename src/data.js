@@ -161,7 +161,7 @@ export const projectsData = [
           image: Project6,
           name: "Fresh-to-home",
           description:
-               "Meanbuy is a comprehensive platform for you to choose how you shop, whether it is buying from the store.",
+               "Buy Fresh Fish, Seafood, Prawns, Antibiotic free Chicken, Duck, Mutton, Goat, Kebab, Egg, Sausage, Momos online. Home delivered in Bangalore, Delhi, Mumbai, ",
 
           code: "https://github.com/erpushpendrasingh/Fresh-To-Home",
           demo: "https://fresh-to-home.netlify.app/",
